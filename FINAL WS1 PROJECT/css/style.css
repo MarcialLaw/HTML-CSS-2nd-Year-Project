@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #00FFFF;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+header .Tagas{
+    position: absolute;
+    text-align: center;
+    top: 5; left: 0; right: 0;
+}
+.Logo img{
+	float: left;
+	height: auto;
+    margin-top: 1px;
+}
+.navbar{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-top: 250px;
+    flex-flow: column;
+    position: relative;
+    z-index: 0;
+}
+.navbar a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    border: 2px solid #008080;
+	color: #008000;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-style: Poppins;
+	font-size: 26px;
+}
+.navbar a:hover{
+	background: #ffd700;
+	color: 333;
+}
+.image-container{
+    max-width: 1000px;
+	margin: auto;
+	overflow: auto;
+	margin-top: 25px;
+	color: #808080;
+}
+.images{
+	margin: 5px;
+	margin-left: 20px;
+	float: right;
+	width: 280px;
+	
+}
+.images:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+.images img{
+	width: 250px;
+	height: 200px;
+	border-radius: 10px;
+}
+.welcome-text{
+    position: absolute;
+	width: 500px;
+	height: 50px;
+	margin: 10% 20%;
+	text-align: center;
+    left: 0; right: 0;
+}

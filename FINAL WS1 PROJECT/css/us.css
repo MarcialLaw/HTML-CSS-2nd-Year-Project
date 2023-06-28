@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+			
+body{
+	background-color:#fff;
+	margin:0px;
+	padding:0px;
+}
+ul{
+list-style:none;
+}a{
+	text-decoration:none;
+}
+section{
+	width:100%;
+	height:95vh;
+	background-image:url("../images/salog.jpg");
+	background-repeat:no-repeat;
+	background-size:cover
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: #87cefa;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0,2);
+	padding: 0px 5%;
+}
+.logo{
+	font-family: Poppins;
+	color:#000000;
+	font-size: 22px
+}
+.active{
+	font-weight: bold;
+	color:#2d2a2a
+}
+.text-container p:nth-child(1){
+	font-family: Poppins;
+	font-weight: bold;
+	letter-spacing: 0px;
+	color: #191970;
+	font-size: 22px;
+}
+.text-container p:nth-child(2){
+	font-family: Poppins;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: cyan;
+	font-size: 40px;
+}
+.text-container p:nth-child(3){
+	font-family: Poppins;
+	font-weight: bold;
+	color: yellow;
+	font-size: 30px;
+}
+.text-container p{
+	line-height: 0px;
+	margin: 45px 0px;
+}
+.text-container{
+	position: absolute;
+	left: 13%;
+	top: 42%;
+	transform: translate(-13%, -42%);
+}
+.photo img{
+	position: relative;
+	top: 711px;
+	height: 400px;
+	width: 500px;
+}
+.photo img:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+.text{
+	position: relative;
+	top: 200px;
+	text-align: center;
+	font-family: Poppins;
+	text-transform: uppercase;
+	color: grey; 
+	
+	}
+	.paragraph{
+		position: relative;
+		float: right;
+		top: 240px;
+		background-color: skyblue;
+		margin-right: 100px;
+		padding: 10px;
+		box-shadow: 10px, 10px, 8px, ;
+		overflow: hidden
+    
+    }
+	.paragraph h3{
+		font-family: Poppins; 
+		color: grey;
+	}
+.paragraph p{
+	font-family: Poppins;
+	color: grey;
+}
+	.paragraph h5{
+		font-family: Poppins; 
+		color: blue;
+	}
+	.hall{
+		position: relative;
+		text-align: center;
+		margin-top: 400px;
+	}
+	.hall img{
+		position: relative;
+		top: 300px;
+		height: 400px;
+		width: 1000px;
+		
+	}
+	.texted{
+		position: relative;
+		top: 300px;
+		text-align: center;
+		font-family: Poppins;
+		text-transform: none;
+		color: rgb(11, 5, 99); 
+		}
+		footer{
+			position: relative;
+			top:300px;
+			padding: 10px;
+			font-size: 16px;
+			font-weight: bold;
+			text-align: center;
+			background: rgb(6, 38, 97);
+			color:rgb(81, 216, 250);
+		}
